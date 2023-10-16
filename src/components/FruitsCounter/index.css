@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.main-container {
+  background-color: #ffd569;
+  height: 90vh;
+  width: 60vw;
+  border-radius: 7px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 7px;
+  height: 70vh;
+  width: 50vw;
+  padding-top: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.fruit-card {
+  margin: 40px;
+  padding: 40px;
+}
+
+.main-fruits-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img {
+  height: 150px;
+  width: 120px;
+}
+.count {
+  color: #ffd569;
+}
+
+.heading {
+  color: #000000;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  height: 34px;
+  width: 134px;
+  border-radius: 2px;
+  border-width: 0px;
+}
+.btn:hover {
+  cursor: pointer;
+}
